@@ -48,7 +48,21 @@
                         <div class="mx-2 group-hover:border-b group-hover:border-b-blue-50"></div>
                     </div>
                 </div>
-            </nav>
+                <div class="md:hidden">
+                    <button class="hamburger z-40">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+           </nav>
+            <div id="menu" class="absolute top-0 bottom-0 left-0 hidden flex flex-col w-full pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black"
+            >
+                <a href="#" class="hover:text-pink-500">About</a>
+                <a href="#" class="hover:text-pink-500">Products</a>
+                <a href="#" class="hover:text-pink-500">Careers</a>
+                <a href="#" class="hover:text-pink-500">Support</a>
+            </div> 
             <div class="max-w-lg my-32 p-4 uppercase text-4xl font-sans border-2 md:p-10 md:text-6xl">
                 Impressive Experiences That Deliver
             </div>
@@ -198,7 +212,8 @@
                 all</button>
         </div>
     </section>
-    <footer class="flex flex-col items-center justify-center bg-black space-y-10 text-white p-10 text-xl font-bold md:flex-row md:justify-between md:space-y-0">
+    <footer
+        class="flex flex-col items-center justify-center bg-black space-y-10 text-white p-10 text-xl font-bold md:flex-row md:justify-between md:space-y-0">
         <div class="flex flex-col space-y-10 items-center md:items-start">
             <img src="images/logo.svg" alt="">
             <div class="flex flex-col space-y-10 md:flex-row md:space-y-0 md:space-x-10">
@@ -230,4 +245,5 @@
             <p class="text-gray-500">&copy; 2022 Loopstudios. All Rights Reserved</p>
         </div>
     </footer>
+    <script src="script.js" defer></script>
 </body>
